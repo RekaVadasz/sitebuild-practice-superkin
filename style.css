@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'Graphik';
-    src: url(/Graphik-Font-Family/used_fonts/GraphikRegular.otf);
+    src: url(Graphik-Font-Family/used_fonts/GraphikRegular.otf);
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: url(/Graphik-Font-Family/used_fonts/GraphikMedium.otf);
+    src: url(Graphik-Font-Family/used_fonts/GraphikMedium.otf);
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: url(/Graphik-Font-Family/used_fonts/GraphikSemibold.otf);
+    src: url(Graphik-Font-Family/used_fonts/GraphikSemibold.otf);
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: url(/Graphik-Font-Family/used_fonts/GraphikBold.otf);
+    src: url(Graphik-Font-Family/used_fonts/GraphikBold.otf);
     font-weight: 700;
 }
 
