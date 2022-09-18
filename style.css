@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url(/Graphik-Font-Family/used_fonts/GraphikRegular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url(/Graphik-Font-Family/used_fonts/GraphikMedium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url(/Graphik-Font-Family/used_fonts/GraphikSemibold.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url(/Graphik-Font-Family/used_fonts/GraphikBold.otf);
+    font-weight: 700;
+}
+
+body > * {
+    font-family: 'Graphik', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* the element with #outer-wrap id is applied only if design was meant to have a border around the whole page */
+#outer-wrap {
+    width: 1100px;
+    margin: 24px auto 24px;
+}
+
+#wrap {
+    width: 1052px;
+    border: solid 1px black; /* this line applied only if design was meant to have a border around the whole page */
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h3 {
+    padding-top: 23px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+p {
+    font-weight: 500;
+}
+
+.logo-container {
+    padding-top: 44px;
+    padding-right: 48px;
+    padding-bottom: 33px;
+    padding-left: 48px;
+}
+
+ .logo {
+    display: block;
+    max-width: 100%;
+ }
+
+/*header*/
+
+header {
+    height: 82px;
+    border-bottom: solid 3px black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+    margin-right: 48px;
+    margin-left: 48px;
+}
+
+nav button {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+}
+
+nav a {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+
+ /* intro section with call to action button */
+
+#intro {
+    position: relative;
+    height: 450px;
+}
+
+#intro img {
+    margin-left: 48px;
+    max-height: 100%;
+}
+
+#intro h1 {
+    position: absolute;
+    left: 612px;
+    top: 115px;
+    font-size: 30px;
+ }
+
+#intro p {
+    position: absolute;
+    left: 612px;
+    top: 164px;
+    width: 393px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+}
+
+#intro button {
+    position: absolute;
+    top: 269px;
+    left: 830px;
+    width: 104px;
+    height: 104px;
+    border: none;
+    border-radius: 50%;
+    background-color: #e4ff1a;
+}
+
+#intro a {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+/* labels on a blue background */
+
+#labels {
+    position: relative;
+    height: 360px;
+    background-color: #cedafe;
+}
+
+#labels h1 {
+    padding-top: 65px;
+    margin: 0;
+    text-align: center;
+}
+
+#labels-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 53px;
+    margin-right: 48px;
+    margin-left: 48px;
+}
+
+#labels-container div {
+    width: 140px;
+} 
+
+#labels-container img {
+    display: block;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#labels-container p {
+    width: 139px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 20px;
+}
+
+/*focused essentials */ 
+
+#essentials > h1 {
+    margin-top: 77px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#essentials > h3 {
+    line-height: 20px;
+    padding-bottom: 52px;
+}
+
+#products-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px black;
+    padding-right: 48px;
+    padding-bottom: 45px;
+    padding-left: 48px;
+}
+
+#products-container > div {
+    width: 301px;
+}
+
+#products-container h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#products-container h3 {
+    padding-top: 0;
+    line-height: 20px;
+    text-align: left;
+}
+
+#products-container p {
+    font-size: 9px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+#products-container p ~ p {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.shop-container {    
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    border-left: none;
+    background-color: white;
+    text-align: left;
+}
+    
+.shop-container a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.shop-container img {
+    margin-left: 20px;
+    height: 10px;
+}
+
+/*instagram box */
+
+#insta-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 48px;
+    padding-bottom: 74px;
+    padding-left: 48px;
+    border-bottom: solid 3px black;
+}
+
+#instagram h1 {
+    text-align: center;
+    margin-top: 76px;
+}
+
+#instagram h3 {
+    padding-top: 0;
+    padding-bottom: 37px;
+}
+
+/* Email subscription */
+
+#email {
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
+    border-bottom: solid 3px black;
+}
+
+#email div {
+    flex-basis: 50%;
+    height: 240px;
+}
+
+
+#email h1 {
+    padding: 0;
+    margin-top: 76px;
+    margin-left: 48px;
+}
+
+#subscribe {
+    flex-basis: 50%;
+}
+
+form {
+    position: relative;
+    height: 240px;
+}
+
+label {
+    display: none;
+}
+
+[type="email"] {
+    position: absolute;
+    top: 76px;
+    left: 60px;
+    width: 380px;
+    border: none;
+    border-bottom: solid 2px black;
+    font-family: 'Graphik', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    line-height: 20px;
+}
+
+[type="submit"] {
+    position: absolute;
+    top: 125px;
+    left: 60px;
+    width: 196px;
+    height: 32px;
+    border: none;
+    background-color: #e4ff1a;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 11px;
+}
+
+/* footer */
+
+#footer-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 56px;
+    margin-right: 48px;
+    margin-left: 48px;
+}
+
+#site-menu {
+    width: 300px;
+}
+
+#contact {
+    width: 267px;
+}
+
+#social-media {
+    width: 249px;
+}
+
+footer a, footer p {
+    display: block;
+    margin: 0;
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+ footer div.logo-container {
+    padding-top: 58px;
+    padding-bottom: 58px;
+ }
